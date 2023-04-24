@@ -1,0 +1,17 @@
+.StatsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statsBox {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 300px;
+}

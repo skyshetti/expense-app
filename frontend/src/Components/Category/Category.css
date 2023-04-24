@@ -1,0 +1,25 @@
+.AddBtn {
+  flex: 2;
+  background-color: rgb(255, 220, 43);
+  border: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 12px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.AddBtn:hover {
+  background-color: rgb(241, 241, 44);
+}
+
+input {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}

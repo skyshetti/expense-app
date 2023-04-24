@@ -1,0 +1,33 @@
+.coverPic {
+  height: 300px;
+  width: 300px;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.inputBtn {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  padding: 10px 10px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.inputBtn:hover {
+  border: 2px;
+  border-color: blue;
+  background-color: whitesmoke;
+  color: blue;
+}
+
+img {
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}

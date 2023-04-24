@@ -1,0 +1,38 @@
+.inputBtn {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  padding: 1px 10px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.inputBtn:hover {
+  border: 2px;
+  border-color: blue;
+  background-color: whitesmoke;
+  color: blue;
+}
+
+input[type="file"]::file-selector-button {
+  padding: 5px 10px;
+  border: 1px;
+  background-color: rgb(246, 246, 246);
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+input[type="file"]::file-selector-button:hover {
+  border: 2px solid lightgray;
+}
+
+.file-input-box {
+  display: flex;
+  margin-left: 5px;
+}
+
+.searchBox {
+  text-align: right;
+  margin-bottom: 13px;
+}

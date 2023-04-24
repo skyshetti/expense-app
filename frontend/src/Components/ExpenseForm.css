@@ -1,0 +1,42 @@
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 9px;
+  margin-left: 10px;
+}
+
+input {
+  margin-right: 20px;
+}
+
+.inputBtn {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  padding: 8px 10px;
+  font-weight: 400;
+  margin-left: 19px;
+  border-radius: 15px;
+}
+.inputBtn:hover {
+  border: 2px;
+  border-color: blue;
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.cancelBtn {
+  margin-top: 30px;
+  text-align: left;
+}
+
+select {
+  border-radius: 10px;
+  padding: 6px 10px;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.formContainer {
+  margin-top: 50px;
+}
